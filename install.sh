@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install wget tar gzip -y
-cd /sdcard
+
+cd
 
 wget http://cli-assets.heroku.com/heroku-linux-arm.tar.gz -O heroku.tar.gz
 tar -xvzf heroku.tar.gz
